@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="bulma.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <img src="./assets/logo.jpg" width="112" height="28" />
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item"> Home </a>
+
+                <a class="navbar-item"> Sweets </a>
+
+                <a class="navbar-item"> Spicy </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link"> More </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item"> Noodles </a>
+                        <a class="navbar-item"> Tofu </a>
+                        <a class="navbar-item"> Frozen Foods </a>
+                        <hr class="navbar-divider" />
+                        <a class="navbar-item"> Raise a complain </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-light"><i class="fa-solid fa-user pr-3"> </i> Account </a>
+                        <a class="button is-light"> <i class="fa-solid fa-cart-shopping pr-3"> </i> Cart (0) </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul class="pl-5 pt-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Dishes</a></li>
+
+            <li class="is-active">
+                <a href="#" aria-current="page">Japanese items</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="myBg">
+        <div class="columns is-vcentered">
+            <div class="column is-7">
+                <figure class="image is-4by3">
+                    <img src="https://ifranchisesingapore.com/wp-content/uploads/2016/11/Uma-Uma-Ramen1.png" alt="" />
+                </figure>
+            </div>
+            <div class="column is-5">
+                <div class="myHero ml-6 mr-6">
+                    <div class="hr"></div>
+                    <h1>Ichiraku Ramen</h1>
+                    <p class="is-size-6">
+                        We Have Shoyu Ramen, Tonkotsu Ramen, Kare Ramen, Tsukemen Ramen
+                        Miso Ramen etc. One of the most popular type of ramen is ICHIRAKU
+                        Ramen. This dish features a flavorful broth made from chicken
+                        bones, soy sauce, and other seasonings. At Ichiraku Ramen, use
+                        only free-range chicken that is sourced from local farms. They
+                        also add plenty of fresh vegetables such as carrots, onions, and
+                        mushrooms to the broth to make it even more nutritious.
+                    </p>
+                </div>
+
+                <div class="price ml-6 mr-6">
+                    <h1>Price - ₹350.00</h1>
+                    <button class="button is-fullwidth is-inverted mt-4">
+                        <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="myBg">
+        <div class="columns is-vcentered">
+            <div class="column is-7">
+                <figure class="image is-4by3">
+                    <img src="https://startercultures.eu/wp-content/uploads/2020/07/natto-starter-culture.png" alt="" />
+                </figure>
+            </div>
+            <div class="column is-5">
+                <div class="myHero ml-6 mr-6">
+                    <div class="hr"></div>
+                    <h1>Nattō</h1>
+                    <p class="is-size-6">
+                        One of the key benefits of nattō is its high nutritional value. It
+                        is rich in protein, fiber, and vitamins, including vitamin K2,
+                        which is important for bone health. Nattō also contains a unique
+                        enzyme called nattokinase, which has been shown to have
+                        anti-inflammatory and blood-thinning properties, making it
+                        beneficial for cardiovascular health.
+                    </p>
+                </div>
+
+                <div class="price ml-6 mr-6">
+                    <h1>Price - ₹199.00</h1>
+                    <button class="button is-fullwidth is-inverted mt-4">
+                        <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container pb-6">
+
+            <div class="container is-size-3 has-text-centered is-12 pt-6">
+                <div class="column">Top Selling Products</div>
+            </div>
+
+
+
+            <div class="container-two is-flex-desktop pt-4 ">
+                <div class="container">
+                    <div class="column">
+
+                        <div class="column-img">
+                            <img src="./assets/homepage (1).jpg" alt="" />
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Ichiraku Chicken Noodles</h1>
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <p>Price- ₹ 380.00</p>
+                        </div>
+
+                        <button type="submit" class="button is-fullwidth is-warning is-inverted mt-4">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="container">
+                    <div class="column">
+
+                        <div class="column-img">
+                            <img src="./assets/shushi (1).jpg" alt="" />
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Nigiri Shushi (Nigirizushi)</h1>
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <p>Price- ₹ 510.00</p>
+                        </div>
+
+                        <button class="button is-fullwidth is-warning is-inverted mt-4 ">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="container">
+                    <div class="column">
+
+                        <div class="column-img">
+                            <img src="./assets/nato (1).jpg" alt="" />
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Ootsubu Natto</h1>
+                        </div>
+
+                        <div class="column-price pt-4 pl-1 ">
+                            <p>Price- ₹ 210.00</p>
+                        </div>
+
+                        <button class="button is-fullwidth is-warning is-inverted mt-4">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="container">
+                    <div class="column">
+                        <div class="column-img">
+                            <img src="./assets/onko (1).jpg" alt="" />
+                        </div>
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Okonomiyaki</h1>
+                        </div>
+                        <div class="column-price pt-4 pl-1">
+                            <p>Price- ₹ 250.00</p>
+                        </div>
+
+                        <button class="button is-fullwidth is-warning is-inverted mt-4">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <div class="container-two is-flex-desktop pt-4 ">
+                <div class="container">
+                    <div class="column">
+
+                        <div class="column-img">
+                            <img src="./assets/Tonkatsu.jpg" alt="" />
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Chicken Tonkatsu</h1>
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <p>Price- ₹ 430.00</p>
+                        </div>
+
+                        <button type="submit" class="button is-fullwidth is-warning is-inverted mt-4">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="container">
+                    <div class="column">
+
+                        <div class="column-img">
+                            <img src="./assets/Tempura.jpg" alt="" />
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Prawn Tempura</h1>
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <p>Price- ₹ 459.00</p>
+                        </div>
+
+                        <button class="button is-fullwidth is-warning is-inverted mt-4 ">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="container">
+                    <div class="column">
+
+                        <div class="column-img">
+                            <img src="./assets/udon.jpg" alt="" />
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Mimi Udon</h1>
+                        </div>
+
+                        <div class="column-price pt-4 pl-1">
+                            <p>Price- ₹ 220.00</p>
+                        </div>
+
+                        <button class="button is-fullwidth is-warning is-inverted mt-4">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="container">
+                    <div class="column">
+                        <div class="column-img">
+                            <img src="./assets/Soba.jpg" alt="" />
+                        </div>
+                        <div class="column-price pt-4 pl-1">
+                            <h1 class="is-size-6">Kitsune Soba</h1>
+                        </div>
+                        <div class="column-price pt-4 pl-1">
+                            <p>Price- ₹ 130.00</p>
+                        </div>
+
+                        <button class="button is-fullwidth is-warning is-inverted mt-4">
+                            <i class="fa-solid fa-cart-shopping pr-3"> </i> Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="view-all has-text-centered mt-4 pt-4 pb-5">
+                <button class="button is-medium is-warning is-outlined is-inverted">View All</button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <nav class="pagination is-centered mr-6 ml-6 mt-5" role="navigation" aria-label="pagination">
+        <a class="pagination-previous">Previous</a>
+        <a class="pagination-next">Next page</a>
+        <ul class="pagination-list">
+            <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            <li><a class="pagination-link" aria-label="Goto page 2">2</a></li>
+            <li><a class="pagination-link is-current" aria-label="Page 3" aria-current="page">3</a></li>
+            <li><a class="pagination-link" aria-label="Goto page 4">4</a></li>
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            <li><a class="pagination-link" aria-label="Goto page 20">20</a></li>
+        </ul>
+    </nav>
+
+
+
+    <footer class="footer pb-0 mb-4 has-background-light">
+        <div class="content has-text-centered">
+            <p class="pb-5">
+                <strong>Buy Japanese food items and Frozen Foods online in India from foodkart98. Order premium quality
+                    foods
+                    sweets snacks like noodles, japanese sweets, walnuts, apricots, raisins, ramen, shushi, tofu,
+                    healthy
+                    salads & prawns dish etc at lowest price in Assam & all over India.</strong>
+            </p>
+            <p>
+                <strong>Foodkart98</strong> by <a href="">Darshan borah</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href=""> CC BY DB. 007</a>.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="style.js"></script>
+</body>
+
+</html>

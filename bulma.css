@@ -1,0 +1,53 @@
+@font-face {
+    font-family: myfontone;
+    src: url(./assets/Poppins-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: myfonttwo;
+    src: url(./assets/RobotoMono-VariableFont_wght.ttf);
+}
+
+
+
+
+.myHero {
+    text-align: justify;
+}
+
+.myHero h1 {
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+.myHero p {
+    font-size: large;
+}
+
+.price {
+    font-size: medium;
+    padding-top: 20px;
+}
+
+
+.myBg h1 {
+    font-family: myfontone;
+
+}
+
+
+.myBg p {
+    font-family: myfonttwo;
+
+}
+
+
+.container-two h1 {
+    font-family: myfontone;
+}
+
+
+.container-two p {
+    font-family: myfonttwo;
+}
